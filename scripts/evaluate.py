@@ -1,5 +1,5 @@
 import pandas as pd
-from models.cinema_recommender.model import CinemaRecommender
+from models import CinemaRecommender
 from surprise import Dataset, Reader
 
 def main():
