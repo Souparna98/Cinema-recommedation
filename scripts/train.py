@@ -1,5 +1,5 @@
 import pandas as pd
-from models.cinema_recommender.model import CinemaRecommender
+from models.model import CinemaRecommender
 
 def main():
     recommender = CinemaRecommender()
